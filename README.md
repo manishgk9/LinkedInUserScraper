@@ -66,8 +66,8 @@ projects = scraper.get_user_projects("manishgk9", num_of_projects=3)
 print(projects)
 
 # Scrape Experience
-projects = scraper.get_user_experience("manishgk9", num_of_experience=3)
-print(projects)
+experience = scraper.get_user_experience("manishgk9", num_of_experience=3)
+print(experience)
 
 # Quit the driver
 scraper.quit()
